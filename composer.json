@@ -1,0 +1,25 @@
+{
+    "name": "tokenly/supervisor-monitor",
+    "description": "Monitors supervisord processes and updates consul",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Devon Weller",
+            "email": "devon@tokenly.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "require": {
+        "supervisorphp/supervisor": "^3.0",
+        "tokenly/consul-health-daemon": "dev-master",
+        "monolog/monolog": "^1.13",
+        "vlucas/phpdotenv": "^1.1",
+        "lstrojny/fxmlrpc": "^0.9.4",
+        "guzzlehttp/guzzle": "^5.3.0"
+    }
+}
