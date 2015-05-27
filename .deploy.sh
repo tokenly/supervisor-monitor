@@ -2,5 +2,6 @@
 
 set -e
 
-echo; echo "nothing to do for deploy";
+echo; echo "updating dependencies";
+/usr/local/bin/composer.phar install --prefer-dist --no-progress
 
