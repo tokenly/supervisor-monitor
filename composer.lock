@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7b9c2c2fd577f75a51af45d40385a239",
+    "hash": "bb20e41d045e4e04bdacbd4f16f4bf62",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
-            "version": "5.3.0",
+            "version": "5.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "f3c8c22471cb55475105c14769644a49c3262b93"
+                "reference": "28475a313d7d413a033b68d762e0db18b3aa4b02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/f3c8c22471cb55475105c14769644a49c3262b93",
-                "reference": "f3c8c22471cb55475105c14769644a49c3262b93",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/28475a313d7d413a033b68d762e0db18b3aa4b02",
+                "reference": "28475a313d7d413a033b68d762e0db18b3aa4b02",
                 "shasum": ""
             },
             "require": {
@@ -26,15 +26,9 @@
             },
             "require-dev": {
                 "ext-curl": "*",
-                "phpunit/phpunit": "^4.0",
-                "psr/log": "^1.0"
+                "phpunit/phpunit": "^4.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "5.0-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "GuzzleHttp\\": "src/"
@@ -62,7 +56,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2015-05-20 03:47:55"
+            "time": "2015-05-26 17:54:26"
         },
         {
             "name": "guzzlehttp/ringphp",
@@ -459,12 +453,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tokenly/consul-health-daemon.git",
-                "reference": "8b8b7b464d48049e6650905f088c69d251fa2c76"
+                "reference": "a57daf3fe4aae3f4b4d1024042b819d6940fe440"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tokenly/consul-health-daemon/zipball/8b8b7b464d48049e6650905f088c69d251fa2c76",
-                "reference": "8b8b7b464d48049e6650905f088c69d251fa2c76",
+                "url": "https://api.github.com/repos/tokenly/consul-health-daemon/zipball/a57daf3fe4aae3f4b4d1024042b819d6940fe440",
+                "reference": "a57daf3fe4aae3f4b4d1024042b819d6940fe440",
                 "shasum": ""
             },
             "require": {
@@ -492,7 +486,7 @@
                 }
             ],
             "description": "A library to monitor services health and report to consul",
-            "time": "2015-05-22 02:06:49"
+            "time": "2015-05-26 13:01:15"
         },
         {
             "name": "vlucas/phpdotenv",
