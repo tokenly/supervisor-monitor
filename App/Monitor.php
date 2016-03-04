@@ -34,7 +34,7 @@ class Monitor
         $any_errors = [];
         foreach($processes as $process) {
             try {
-                $id = 'supervisor_'.$process['name'];
+                $id = getenv('APP_PREFIX').'supervisor_'.$process['name'];
                 $is_up = ($process['statename'] == 'RUNNING');
                 if ($is_up) {
                     Log::debug("process $id was UP");
