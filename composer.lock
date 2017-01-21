@@ -459,12 +459,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tokenly/consul-health-daemon.git",
-                "reference": "62a86bc3dd6ad04ec279a4e715f2e1f13e9eb9dc"
+                "reference": "2ca4dbae14cfdb62963a8b627e1c120cc491227a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tokenly/consul-health-daemon/zipball/62a86bc3dd6ad04ec279a4e715f2e1f13e9eb9dc",
-                "reference": "62a86bc3dd6ad04ec279a4e715f2e1f13e9eb9dc",
+                "url": "https://api.github.com/repos/tokenly/consul-health-daemon/zipball/2ca4dbae14cfdb62963a8b627e1c120cc491227a",
+                "reference": "2ca4dbae14cfdb62963a8b627e1c120cc491227a",
                 "shasum": ""
             },
             "require": {
@@ -492,7 +492,7 @@
                 }
             ],
             "description": "A library to monitor services health and report to consul",
-            "time": "2016-10-21 13:37:35"
+            "time": "2017-01-21 16:14:30"
         },
         {
             "name": "vlucas/phpdotenv",
